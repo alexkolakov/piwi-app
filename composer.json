@@ -1,0 +1,16 @@
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/alexkolakov/piwi-framework"
+    }
+  ],
+  "require": {
+    "alex/piwi-framework": "dev-master"
+  },
+  "autoload" : {
+    "psr-4": {
+      "PiwiApp\\": "src"
+    }
+  }
+}
