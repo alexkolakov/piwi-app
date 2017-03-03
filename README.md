@@ -10,6 +10,7 @@ Installation:
 
 - add virtual host to your apache
 
+```
 <VirtualHost *:80>
         ServerName sitename.dev
 
@@ -23,6 +24,7 @@ Installation:
                 Require all granted
         </Directory>
 </VirtualHost>
+```
 
 - add sitename.dev to hosts file (/etc/hosts)
 
