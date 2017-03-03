@@ -14,10 +14,10 @@ Installation:
         ServerName sitename.dev
 
         ServerAdmin webmaster@localhost
-        DocumentRoot D:\Projects\piwi-app\web
+        DocumentRoot /var/www/piwi-app/web
 
 
-        <Directory "D:\Projects\piwi-app\web">
+        <Directory "/var/www/piwi-app/web">
                 Options FollowSymLinks
                 AllowOverride All
                 Require all granted
